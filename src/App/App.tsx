@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import StarsRating from "../components/StarsRating";
+import StarsRating from "components/StarsRating";
 
 const STARS_COUNT: number = 4;
 

@@ -1,7 +1,7 @@
 import React, { FC, ReactNode } from 'react';
 import { nanoid } from 'nanoid';
 import Star from '../Star';
-import { StarItem } from '../../types';
+import { StarItem } from 'types';
 
 const MAX_RATING: number = 5;
 
@@ -22,13 +22,11 @@ const StarsRating: FC<Props> = ({ count }) => {
   return (
     <div className="container">
       <ul className="card-body-stars u-clearfix">
-        {starsToRender.map(({ _id }: StarItem): ReactNode => {
-          return (
-            <li key={_id}>
-              <Star />
-            </li>
-          );
-        })}
+        {starsToRender.map(({ _id }: StarItem): ReactNode => (
+          <li key={_id}>
+            <Star />
+          </li>
+        ))}
       </ul>
     </div>
   );

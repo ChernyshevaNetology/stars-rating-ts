@@ -1,4 +1,4 @@
 # Stars Rating with Typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+View [Demo](https://chernyshevanetology.github.io/stars-rating-ts/)
 
